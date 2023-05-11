@@ -49,7 +49,7 @@ function displayData(data){
     </div>
     <div class="col-12 weatherDetails">
       <hr>
-    <h2>Weather Details!</h2>
+    <h2 ><span>Weather Details!<span></h2>
     <hr>
   
     
@@ -64,15 +64,15 @@ function displayData(data){
 <div class="container text-center">
 <div class="row">
 <div class="col">
-MinTemp(°C)
+<span style="border-left:  2px solid rgb(17, 255, 17); padding-left: 7px;">MinTemp(°C)</span>
 <br> ${mintemp}°C
 </div>
 <div class="col">
-Humidity 
+<span style="border-left:  2px solid rgb(17, 255, 17); padding-left: 7px;">Humidity</span>
 <br>${humidity}%
 </div>
 <div class="col">
-  MaxTemp(°C) <br>${maxtemp}°C
+  <span style="border-left:  2px solid rgb(17, 255, 17); padding-left: 7px;">MaxTemp(°C)</span> <br>${maxtemp}°C
 </div>
 </div>
 </div>
@@ -80,16 +80,16 @@ Humidity
 <div class="container text-center">
 <div class="row">
 <div class="col">
- pressure <br>
+<span style="border-left:  2px solid rgb(17, 255, 17); padding-left: 7px;"> pressure<?span> <br>
  ${pressure} mb
 
 </div>
 <div class="col">
-windspeed <br>
+<span style="border-left:  2px solid rgb(17, 255, 17); padding-left: 5px;">windspeed</span> <br>
 ${windspeed}km/h
 </div>
 <div class="col">
- feels like <br>
+ <span style="border-left:  2px solid rgb(17, 255, 17); padding-left: 7px;">feelslike</span><br>
  ${feeltemp}°C
 </div>
 
