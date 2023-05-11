@@ -193,6 +193,33 @@ backdrop-filter: blur(10%);
     border-right:  2px solid rgb(17, 255, 17);
     border-radius: 10px 0px;
    }
+   @media (max-width:450px){
+    #inputbox{
+      width: 270px;
+    }
+    .textInputWrapper {
+      
+      width: 270px;
+      
+    }
+    .weatherDetails{
+      font-size: 11px;
+   }
+  }
+  @media (max-width:400px){
+    #inputbox{
+      width: 270px;
+    }
+    .textInputWrapper {
+      
+      width: 270px;
+      
+    }
+    .weatherDetails{
+      font-size: 11px;
+   }
+
+  }
    @media screen and (min-device-width: 370px){
 .Inputbox{
   margin-left: -17px;
